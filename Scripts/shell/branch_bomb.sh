@@ -109,7 +109,7 @@ execute_branch_bomb()
 
         delete_all_local_branches $1
     done
-}&
+}
 
 if [ "${t}" ]; then
     if [ "${i}" ]; then
